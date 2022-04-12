@@ -1,14 +1,14 @@
 .lista-1{
-    color: rgb(245, 136, 55) ;
+    color: black;
     font-family: Georgia;
     font-size: 20px;
-    background-color: bisque;
-    width: 150px;
+    background: #ffa7a7;
+    background: linear-gradient(197deg,#ffa7a7 35%, #00fff0 80%);    width: 150px;
     height: 85px;
     padding-top: 10px;
 }
 #nombre{
-    color:rgb(245, 136, 55);
+    color:#ffa7a7;
     width: 200px;
     margin: 0 auto;
     text-align: center;
@@ -23,14 +23,13 @@
     font-size: 16px;
     width: 280px;
     height: 140px;
-    background: #ff8100;
-    background: linear-gradient(15deg,#ff8100 0%, #a500ff 80%);
-    background: -webkit-linear-gradient(15deg,#ff8100 0%, #a500ff 80%);
-    background: -moz-linear-gradient(15deg,#ff8100 0%, #a500ff 80%);
+    background: #ffa7a7;
+    background: linear-gradient(197deg,#ffa7a7 35%, #00fff0 80%);
+    background: -webkit-linear-gradient(197deg,#ffa7a7 35%, #00fff0 80%);
+    background: -moz-linear-gradient(197deg,#ffa7a7 35%, #00fff0 80%);    
     padding: 10px;
     box-sizing: border-box;/* ajusta el tamaño para que el padding no aumente el tamaño */
-    border-radius: 15px 0 15px 30px;
-    box-shadow: 10PX 10PX 5px black;
+    margin-top: 50px;
     text-align: justify;
 
 }
@@ -39,13 +38,17 @@ h6{
 
 }
 #foto-1{
-    text-align: center;
+    width: 810px; height: 410px;
+    margin: 0 auto;
     margin-top: 35px;
     border: 5px solid;
+    box-sizing: border-box;
+    background: #ffa7a7;
+    background: linear-gradient(197deg,#ffa7a7 35%, #00fff0 80%);
 
 }
 .titulo-1{
-    color: rgb(245, 136, 55);
+    color: #ffa7a7;
     font-size: 25px;
     font-weight: bold;
     text-decoration: underline;
@@ -55,9 +58,8 @@ h6{
     text-align: right;
     font-size: 14px;
     color: black;
-    background: #ff8100;
-    background: linear-gradient(15deg,#ff8100 0%, #a500ff 80%);
-    background: -webkit-linear-gradient(15deg,#ff8100 0%, #a500ff 80%);
-    background: -moz-linear-gradient(15deg,#ff8100 0%, #a500ff 80%);
+    background: #ffa7a7;
+background: linear-gradient(197deg,#ffa7a7 35%, #00fff0 80%);
+background: -webkit-linear-gradient(197deg,#ffa7a7 35%, #00fff0 80%);
+background: -moz-linear-gradient(197deg,#ffa7a7 35%, #00fff0 80%);
 }
-s

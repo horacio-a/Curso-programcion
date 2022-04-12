@@ -1,8 +1,56 @@
-.titulos-medios{
-color: red;
-}  
+.lista-1{
+    color: rgb(245, 136, 55) ;
+    font-family: Georgia;
+    font-size: 20px;
+    background-color: bisque;
+    width: 150px;
+    height: 85px;
+    padding-top: 10px;
+}
 #nombre{
-color: red;
-font-size: 30px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(245, 136, 55);
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: cambria;
+    text-decoration: underline; 
+    text-decoration-color: black;
+    font-weight: bold;
+}
+.texto-1{
+    color: rgb(245, 136, 55);
+    font-size: 16px;
+    width: 280px;
+    height: 140px;
+    background-color: bisque;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+h6{
+    text-align: right;
+
+}
+#foto-1{
+    text-align: center;
+    margin-top: 35px;
+    border: 5px solid;
+
+}
+.titulo-1{
+    color: rgb(245, 136, 55);
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.informacion{
+    text-align: right;
+    font-size: 14px;
+    color: black;
+    background-color: bisque;
+    
+
+
 }

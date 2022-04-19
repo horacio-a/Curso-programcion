@@ -1,16 +1,17 @@
 #contenedor{
-    width: 1000px;
-    height: 1000px;
+    width: 900px;
+    height: 900px;
     border-style: solid; border-color: black;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: space-evenly;
     
 }
 #uno{
     width: 300px;
     height: 300px;
+    color: white;
+    font-size: 20px;
     background-color:red;
     display: inline-flex;
     justify-content: center;  
@@ -19,6 +20,8 @@
 #dos{
     width: 300px;
     height: 300px;
+    color: white;
+    font-size: 20px;
     background-color: blue;
     display: inline-flex;
     justify-content: center;  
@@ -27,6 +30,8 @@
 #tres{
     width: 300px;
     height: 300px;
+    color: white;
+    font-size: 20px;
     background-color: green;
     display: inline-flex;
     justify-content: center;  

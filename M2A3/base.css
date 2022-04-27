@@ -35,6 +35,7 @@ aside {
 	background: #CCC59E;
 	float: right;
 	width: 190px;
+<<<<<<< HEAD
 }
 @media (max-width: 800px){
 	
@@ -65,3 +66,7 @@ aside {
 	}
 	
 }
+=======
+
+}
+>>>>>>> b810c6bac72771a3adadc851e46d069bb65df0ca

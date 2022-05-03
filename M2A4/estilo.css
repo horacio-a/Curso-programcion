@@ -1,8 +1,6 @@
 #body {
     background-color: #353069;
 }
-.registerbutton{
-    padding: 10px;
 }
 #carousel1 {
     padding-left: 12.5%;
@@ -45,6 +43,5 @@
 }
 .footer{
     background: linear-gradient(180deg, #353069 0%, #061121 30%);
-    
     color: grey;
 }

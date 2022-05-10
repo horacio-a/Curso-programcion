@@ -75,38 +75,41 @@ color: #061121;
 
 }
 
-#imagenes {
+.imagenes {
     background-color: #061121;
-    border-radius: 5px;
-    display: inline-flex;
+    
+    display: flex;
     justify-content: center;
     padding-bottom: 15px;
 
 }
-
-#nombres {
+.ima-nom:hover{
+    transform: scale(1.2);
+}
+.nombres {
     background-color: #061121;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     color: white;
     padding-bottom: 15px;
     font-size: 25px;
+    border-radius: 5px;
 }
 
-#texto1 {
+.texto1 {
     display: inline-flex;
     justify-content: center;
     color: grey;
     margin-top: 0%;
     background: #061121;
     padding-top: 15px;
-    border-right: white solid 0.5px;
+    border-right: solid grey 0.5px ;
     padding-left: 55px;
     padding-right: 55px;
     margin-bottom: 105px;
 }
 
-#contact {
+.contact {
     margin-bottom: 15px;
 }
 
@@ -117,11 +120,11 @@ color: #061121;
     margin-left: 12.5%;
     margin-right: 12.5%;
     background-color: #F4F4F4;
-    opacity: 0.4;
+    opacity: 0.2;
     height: 1px;
 }
 
-#icons {
+.icons {
     display: flex;
     justify-content: center;
 

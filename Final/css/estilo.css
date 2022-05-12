@@ -3,16 +3,15 @@ fonts
 
 font-family: 'Oswald', sans-serif;
 
+font-family: 'Noto Sans', sans-serif;
 */
 
 
 #body {
     background-color: #061121;
+    font-family: 'Noto Sans', sans-serif;
 }
-.nav{
-color: #061121;
-    background-color: #061121
-}
+
 
 #carousel1 {
     box-sizing: border-box;
@@ -30,9 +29,10 @@ color: #061121;
     opacity: 55%;
 }
 
-.btn{
-    color:  white;
+.btn {
+    color: white;
 }
+
 .textdenima {
     font-family: 'Oswald', sans-serif;
     opacity: 100%;
@@ -72,7 +72,8 @@ color: #061121;
     color: white;
     text-decoration: underline none;
 }
-.btn{
+
+.btn {
     border: solid black;
     margin-top: 15px;
 }
@@ -88,20 +89,22 @@ color: #061121;
 
 .imagenes {
     background-color: #061121;
-    
+
     display: flex;
     justify-content: center;
     padding-bottom: 15px;
 
 }
-.ima-nom:hover{
+
+.ima-nom:hover {
     transform: scale(1.2);
 }
+
 .nombres {
-    background-color: #061121;
     display: flex;
     justify-content: center;
     color: white;
+
     padding-bottom: 15px;
     font-size: 25px;
     border-radius: 5px;
@@ -114,7 +117,7 @@ color: #061121;
     margin-top: 0%;
     background: #061121;
     padding-top: 15px;
-    border-right: solid grey 0.5px ;
+    border-right: solid grey 0.5px;
     padding-left: 55px;
     padding-right: 55px;
     margin-bottom: 105px;
@@ -144,4 +147,37 @@ color: #061121;
 .footer {
     background: #061121;
     color: grey;
+}
+
+.card {
+    border: 1px solid grey;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-title {
+    margin-bottom: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.card-body {
+    background-color: #061121;
+
+}
+.col{
+    display: flex;
+    justify-content: center;
+}
+.boton {
+    display: flex;
+    justify-content: center;
 }

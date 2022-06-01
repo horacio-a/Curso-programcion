@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var aprobados
+        var desprobados
+        var alumnos = [{ nombre: 'Juan Gomez', nota: -1 }, { nombre: 'Pedro Rodriguez', nota: 0 }, { nombre: 'Roxana García', nota: 8 }, { nombre: 'Luciano Lopez', nota: 5 }, 
+        { nombre: 'Fernanda Gimenez', nota: 12 }, { nombre: 'Florencia Martinez', nota: 10 }, { nombre: 'Raul Sanchez', nota: 7 }, { nombre: 'Sandra Figueroa', nota: 5 }];
+        var nombres = []
+        var nota = []
+        for (let i = 0; i < alumnos.length; i++) {
+            var notaa = alumnos[nota.length].nota
+            var nombree = alumnos[nombres.length].nombre
+                nombres[nombres.length] = nombree
+                nota[nota.length] = notaa
+        }
+        var aprobados = []
+        var desaprobados = []
+        var error = []
+        for (let index = 0; index < nota.length; index++) {
+           if(nota[index]>=7 && nota[index] <= 10){
+               aprobados =  aprobados +" "+ nombres[index]
+           }else if(nota[index] < 7 && nota[index] >= 0 ){
+                desaprobados = desaprobados + " " + nombres [index]
+           }else {
+               error = error + " " + nombres[index]
+           };
+            
+        }
+        console.log("los alumnos aprobados son " + aprobados)
+        console.log("los alumnos desaprobados son " + desaprobados)
+        console.log("los alumnos con notas mal cargadas son " + error)
+
+
+
+   
+    
+    </script>
+
+</body>
+
+</html>

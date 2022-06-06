@@ -185,3 +185,7 @@ font-family: 'Noto Sans', sans-serif;
     color: grey;
     font-size: 20px;
 }
+.columna{
+    display: inline-block;
+    flex-direction: column;
+}

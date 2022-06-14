@@ -1,9 +1,9 @@
 /*
 fonts
 
-font-family: 'Oswald', sans-serif;
-
 font-family: 'Noto Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 */
 
 
@@ -11,17 +11,21 @@ font-family: 'Noto Sans', sans-serif;
 
 
 
+.margen{
+    margin: 100px;
 
-
+}
 
 .carousel-Caption {
     margin-bottom: 75px;
     color: white;
     opacity: 400%;
+    font-family: 'Oswald', sans-serif;
 }
 
-.btn {
-    color: white;
+.centrar{
+    display: flex;
+    justify-content: center;
 }
 
 .textdenima {
@@ -64,22 +68,29 @@ font-family: 'Noto Sans', sans-serif;
     text-decoration: underline none;
 }
 
-.btn {
-    border: solid black;
-    margin-top: 15px;
-}
+
 
 #titulos {
     color: white;
     background-color: #061121;
     display: flex;
     justify-content: center;
+    font-family: 'Oswald', sans-serif;
+
 
 
 }
 .titulos2{
     color: gray;
     font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.titulos3{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-left: 90px;
 
 
 }
@@ -93,6 +104,9 @@ font-family: 'Noto Sans', sans-serif;
     opacity: 0.2;
     height: 1px;
    
+}
+.boton-boder{
+    border-color: #f8f9fa;
 }
 
 .imagenes {
@@ -129,6 +143,9 @@ font-family: 'Noto Sans', sans-serif;
     padding-left: 55px;
     padding-right: 55px;
     margin-bottom: 105px;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 .texto1-notborder {
     display: inline-flex;
@@ -140,11 +157,26 @@ font-family: 'Noto Sans', sans-serif;
     padding-left: 55px;
     padding-right: 55px;
     margin-bottom: 105px;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+
+
+}
+.texto2{
+    color: rgb(156, 156, 156);
+    text-align: justify;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+
+
 }
 
 .contact {
     margin-bottom: 15px;
 }
+
 
 .barraseparar {
     box-sizing: border-box;
@@ -170,6 +202,8 @@ font-family: 'Noto Sans', sans-serif;
 .footer {
     background: #061121;
     color: grey;
+    text-decoration: none;
+    text-align: justify;
 }
 
 .card {
@@ -204,10 +238,7 @@ font-family: 'Noto Sans', sans-serif;
     display: flex;
     justify-content: center;
 }
-.texto2{
-    color: grey;
-    font-size: 20px;
-}
+
 .columna{
     display: inline-block;
     flex-direction: column;

@@ -7,33 +7,33 @@ import Form from 'react-bootstrap/Form';
 const ContactoPage = (props) => {
     return (
         <div>
-                        <div class='barraseparar'></div>
+            <div class='barraseparar'></div>
             <div id='titulos'>
-           <h2>Contacto</h2> 
+                <h2>Contacto</h2>
 
             </div>
             <div class='barraseparar'></div>
 
-            <Container>
+            <Container >
                 <Row>
                     <Col>
-                    <div class='texto2'>
-                        <div class='titulos2'>
-                            Otros medios de conctactos
+                        <div class='texto2'>
+                            <div class='titulos2'>
+                                Otros medios de conctactos
                             </div>
-                        <div class='barraseparar2'></div>
-                        <p>
-                            Telefono cede Buenos Aires: 011-5524168
-                        </p>
-                        <p>
-                            Telefono Cede Neuquen: 299-5758449
-                        </p>
-                        <p>
-                            Email de consultas: Criptoword@gmail.com
-                        </p>
-                        <p>
-                            Email de ventas: Criptowordventas@gmail.com
-                        </p>
+                            <div class='barraseparar2'></div>
+                            <p>
+                                Telefono cede Buenos Aires: 011-5524168
+                            </p>
+                            <p>
+                                Telefono Cede Neuquen: 299-5758449
+                            </p>
+                            <p>
+                                Email de consultas: Criptoword@gmail.com
+                            </p>
+                            <p>
+                                Email de ventas: Criptowordventas@gmail.com
+                            </p>
                         </div>
                     </Col>
                     <Col>
@@ -57,9 +57,11 @@ const ContactoPage = (props) => {
                             </Form.Group>
 
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                                <Form.Control as="textarea" rows={3}placeholder="Deje su mensaje, lo atenderemos en 2 dias habiles." />
+                                <Form.Control as="textarea" rows={3} placeholder="Deje su mensaje, lo atenderemos en 2 dias habiles." />
                             </Form.Group>
-                            <Button variant="light">enviar</Button>
+                            <div class='centrar'>
+                            <Button variant="light" class='btn'>Enviar</Button>
+                            </div>
                         </Form>
                     </Col>
 

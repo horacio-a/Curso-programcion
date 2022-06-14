@@ -79,7 +79,7 @@ function Footer() {
                             <h6 class="text-uppercase fw-bold mb-4">
                                 <i class="fas fa-gem me-3"></i>Criptoword
                             </h6>
-                            <p >
+                            <p class='footer'>
                                 Somos una empresa dedicada al mundo crypto.
                                 Traemos soluciones para las personas que no están dentro de este maravilloso mundo,
                                 facilitando el staking y la adquisición de NFTs y estableciendo los mejores precio en la
@@ -91,16 +91,16 @@ function Footer() {
                             Nuestros servicios
                         </h6>
                             <p>
-                                <a href="/Mineria" >Mineria</a>
+                                <a href="/Mineria" class='footer' >Mineria</a>
                             </p>
                             <p>
-                                <a href="/Staking" >Staking</a>
+                                <a href="/Staking" class='footer' >Staking</a>
                             </p>
                             <p>
-                                <a href="/NFT" >NFT</a>
+                                <a href="/NFT" class='footer'>NFT</a>
                             </p>
                             <p>
-                                <a href="/Criptocard">Cryptocard</a>
+                                <a href="/Criptocard" class='footer'>Cryptocard</a>
                             </p>
                         </Col>
                         <Col>
@@ -108,13 +108,13 @@ function Footer() {
                                 FAQ
                             </h6>
                             <p>
-                                <a href="/" >Medio de pago</a>
+                                <a href="/" class='footer'>Medio de pago</a>
                             </p>
                             <p>
-                                <a href="/">Configuraciones</a>
+                                <a href="/" class='footer'>Configuraciones</a>
                             </p>
                             <p>
-                                <a href="/">Ayuda</a>
+                                <a href="/" class='footer'>Ayuda</a>
                             </p>
 
                         </Col>

@@ -4,17 +4,19 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
+
 const NosotrosPage = (props) => {
     return (
         <div>
             <div class='barraseparar'></div>
             <div id='titulos'>
-           <h2>Fundadores de Criptoword</h2> 
+                <h2>Fundadores de Criptoword</h2>
 
             </div>
             <div class='barraseparar'></div>
 
-            <Container>
+
+            <Container fluid>
                 <Row>
                     <Col>
                         <div class="imagenes">
@@ -64,6 +66,7 @@ const NosotrosPage = (props) => {
                             eum dolore enim totam.
                         </div>
                     </Col>
+
                     <Col>
 
                         <div class="imagenes">
@@ -120,7 +123,7 @@ const NosotrosPage = (props) => {
                             <img src="imagenes/jason-lau.png" class="rounded" alt="..." />
                         </div>
                         <div class="nombres">
-                            jason Lau
+                            Jason Lau
                         </div>
                         <div class="texto1">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio, quae quia

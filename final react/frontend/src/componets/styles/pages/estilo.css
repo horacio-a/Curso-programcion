@@ -13,14 +13,11 @@ font-family: 'Noto Sans', sans-serif;
 
 
 
-.carousel-item {
 
-    opacity: 55%;
-}
 .carousel-Caption {
-    margin-bottom: 15px;
+    margin-bottom: 75px;
     color: white;
-    opacity: 100%;
+    opacity: 400%;
 }
 
 .btn {
@@ -80,6 +77,23 @@ font-family: 'Noto Sans', sans-serif;
 
 
 }
+.titulos2{
+    color: gray;
+    font-size: 30px;
+
+
+}
+.barraseparar2{
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-bottom: 45px;
+
+    margin-right: 100px;
+    background-color: #F4F4F4;
+    opacity: 0.2;
+    height: 1px;
+   
+}
 
 .imagenes {
     background-color: #061121;
@@ -116,6 +130,17 @@ font-family: 'Noto Sans', sans-serif;
     padding-right: 55px;
     margin-bottom: 105px;
 }
+.texto1-notborder {
+    display: inline-flex;
+    justify-content: center;
+    color: grey;
+    margin-top: 0%;
+    background: #061121;
+    padding-top: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-bottom: 105px;
+}
 
 .contact {
     margin-bottom: 15px;
@@ -135,7 +160,11 @@ font-family: 'Noto Sans', sans-serif;
 .icons {
     display: flex;
     justify-content: center;
+    
 
+}
+.icon-color{
+    color: white;
 }
 
 .footer {

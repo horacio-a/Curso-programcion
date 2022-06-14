@@ -7,13 +7,21 @@ import Form from 'react-bootstrap/Form';
 const ContactoPage = (props) => {
     return (
         <div>
+                        <div class='barraseparar'></div>
+            <div id='titulos'>
+           <h2>Contacto</h2> 
+
+            </div>
+            <div class='barraseparar'></div>
+
             <Container>
                 <Row>
                     <Col>
-                        <p>
-
+                    <div class='texto2'>
+                        <div class='titulos2'>
                             Otros medios de conctactos
-                        </p>
+                            </div>
+                        <div class='barraseparar2'></div>
                         <p>
                             Telefono cede Buenos Aires: 011-5524168
                         </p>
@@ -26,7 +34,7 @@ const ContactoPage = (props) => {
                         <p>
                             Email de ventas: Criptowordventas@gmail.com
                         </p>
-
+                        </div>
                     </Col>
                     <Col>
                         <Form>
@@ -51,9 +59,7 @@ const ContactoPage = (props) => {
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                 <Form.Control as="textarea" rows={3}placeholder="Deje su mensaje, lo atenderemos en 2 dias habiles." />
                             </Form.Group>
-                            <Button variant="light" type="submit">
-                                Enviar
-                            </Button>
+                            <Button variant="light">enviar</Button>
                         </Form>
                     </Col>
 

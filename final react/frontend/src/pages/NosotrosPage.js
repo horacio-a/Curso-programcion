@@ -7,6 +7,13 @@ import Col from 'react-bootstrap/Col';
 const NosotrosPage = (props) => {
     return (
         <div>
+            <div class='barraseparar'></div>
+            <div id='titulos'>
+           <h2>Fundadores de Criptoword</h2> 
+
+            </div>
+            <div class='barraseparar'></div>
+
             <Container>
                 <Row>
                     <Col>
@@ -65,7 +72,7 @@ const NosotrosPage = (props) => {
                         <div class="nombres">
                             Bobby Bao
                         </div>
-                        <div class="texto1">
+                        <div class="texto1-notborder">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio, quae quia
                             libero
                             dolore
@@ -139,7 +146,7 @@ const NosotrosPage = (props) => {
                         <div class="nombres">
                             Matthew Chan
                         </div>
-                        <div class="texto1">
+                        <div class="texto1-notborder">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur odio, quae quia
                             libero
                             dolore

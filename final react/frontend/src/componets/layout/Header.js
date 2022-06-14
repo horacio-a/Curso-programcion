@@ -5,8 +5,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function navbar() {
   return (
-    <Navbar bg="dark" variant='dark' expand="lg">
+    <Navbar variant='dark' expand="lg">
       <Container>
+        <div class='icon-color'>
+        <i class="fas fa-gem me-3" ></i>
+        </div>
         <Navbar.Brand href="/">CriptoWord</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -26,7 +29,7 @@ function navbar() {
                Aproximamente cryptocard
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/FAQ">FAQ</Nav.Link>s
+            <Nav.Link href="/FAQ">FAQ</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,23 +1,30 @@
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { NavLink } from 'react-bootstrap';
+
 
 function navbar() {
+
+
   return (
-    <Navbar variant='dark' expand="lg">
+    <Navbar bg='dark' variant='dark' expand="lg">
       <Container>
-        <div class='icon-color'>
-        <i class="fas fa-gem me-3" ></i>
-        </div>
-        <Navbar.Brand href="/">CriptoWord</Navbar.Brand>
+        <Navbar.Brand href="/" >
+            <img
+            style={{height: 55, marginRight: 10, marginBottom: 5}}
+              src="imagenes/Logotipo Criptoword fondo negro.png"
+              alt="Criptoword"
+            />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Inicio</Nav.Link>
-            <Nav.Link href="/nosotros">¿Quienes somos?</Nav.Link>
-            <Nav.Link href="/contacto">Contacta con nosotros</Nav.Link>
-
+            <NavLink href='/'>Inicio</NavLink>
+            <NavLink href="/nosotros">¿Quienes somos?</NavLink>
+            <NavLink href="/contacto">Contacta con nosotros</NavLink>
             <NavDropdown title="Nuestros servicios" id="basic-nav-dropdown">
               <NavDropdown.Item href="/mineria">Mineria</NavDropdown.Item>
               <NavDropdown.Item href="/staking">
@@ -26,7 +33,7 @@ function navbar() {
               <NavDropdown.Item href="/NFT">NFT</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/criptocard">
-               Aproximamente cryptocard
+                Aproximamente cryptocard
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/FAQ">FAQ</Nav.Link>

@@ -6,16 +6,15 @@ import "../styles/pages/estilo.css"
 
 function Footer() {
     return (
-        <footer>
+        <footer className='footer'>
             <Container fluid>
-                <div className='barraseparar'></div>
+                <div className='barraseparar' ></div>
                 <Row>
                     <Col xs={3}></Col>
                     <Col>
                         <div class='icons'>
                             <a href="https://www.facebook.com">
                                 <div class='icon-color'>
-
                                     <i class="fa-brands fa-facebook-square" ></i></div>
                             </a>
                         </div>
@@ -53,7 +52,6 @@ function Footer() {
                                 <div class='icon-color'>
                                     <i class="fab fa-linkedin"></i>
                                 </div>
-
                             </a>
                         </div>
                     </Col>
@@ -61,10 +59,8 @@ function Footer() {
                         <div class='icons'>
                             <a href="https://www.github.com">
                                 <div class='icon-color'>
-
                                     <i class="fab fa-github"></i>
                                 </div>
-
                             </a>
                         </div>
                     </Col>
@@ -75,21 +71,26 @@ function Footer() {
             <div class='footer'>
                 <Container>
                     <Row>
-                        <Col>
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                <i class="fas fa-gem me-3"></i>Criptoword
-                            </h6>
+                        <Col fluid>
+                            <img
+                                style={{ height: 45,  textAlign: 'center',marginBottom: 15,
+                            }}
+                                src="imagenes/Logotipo Criptoword fondo negro.png"
+                                alt="Criptoword"
+                            />
                             <p class='footer'>
                                 Somos una empresa dedicada al mundo crypto.
                                 Traemos soluciones para las personas que no están dentro de este maravilloso mundo,
                                 facilitando el staking y la adquisición de NFTs y estableciendo los mejores precio en la
                                 minería con los rig´s y asic´s
-
                             </p>
                         </Col>
-                        <Col><h6 class="text-uppercase fw-bold mb-4">
+                        <Col><h5 class="text-uppercase fw-bold mb-4" >
+                            <div style={{marginBottom: 30}}>
                             Nuestros servicios
-                        </h6>
+
+                            </div>
+                        </h5>
                             <p>
                                 <a href="/Mineria" class='footer' >Mineria</a>
                             </p>
@@ -105,7 +106,9 @@ function Footer() {
                         </Col>
                         <Col>
                             <h6 class="text-uppercase fw-bold mb-4">
+                            <div style={{marginBottom: 30}}>
                                 FAQ
+                                </div>
                             </h6>
                             <p>
                                 <a href="/" class='footer'>Medio de pago</a>
@@ -116,7 +119,6 @@ function Footer() {
                             <p>
                                 <a href="/" class='footer'>Ayuda</a>
                             </p>
-
                         </Col>
                         <Col>
                             <h6 class="text-uppercase fw-bold mb-4">
@@ -130,7 +132,6 @@ function Footer() {
                             <p><i class="fas fa-phone me-3"></i>+54 299 5------</p>
                             <p><i class="fas fa-print me-3"></i>+54 011 5------ </p>
                         </Col>
-
                     </Row>
                 </Container>
             </div>

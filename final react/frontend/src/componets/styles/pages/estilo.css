@@ -8,7 +8,10 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 
-
+.logo{
+    width: 100px;
+    height: 65,5px;
+}
 
 
 .margen{
@@ -192,6 +195,7 @@ font-family: 'Roboto Condensed', sans-serif;
 .icons {
     display: flex;
     justify-content: center;
+    background-color: #212529;
     
 
 }
@@ -200,8 +204,8 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .footer {
-    background: #061121;
-    color: grey;
+    background: #212529;
+    color: #979d9e;
     text-decoration: none;
     text-align: justify;
 }

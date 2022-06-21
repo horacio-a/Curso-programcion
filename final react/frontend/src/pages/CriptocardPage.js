@@ -3,6 +3,7 @@ const CriptocardPage = (props) => {
     return (
         <div>
         <h1>Criptocard</h1>
+        
          </div>
     );
 }
